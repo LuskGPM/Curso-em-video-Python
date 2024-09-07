@@ -1,0 +1,10 @@
+n = int(input('número: '))
+c = n - 1
+mult = n
+print(n, end='')
+while c != 0:
+    print(f' x {c}', end='')
+    if c != 0:
+        mult = mult * c
+    c -= 1
+print(f' = {mult}')
